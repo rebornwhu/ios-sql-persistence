@@ -15,6 +15,7 @@
 		89137EBD1C0179130060840D /* ios_sql_persistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89137EBC1C0179130060840D /* ios_sql_persistenceTests.swift */; };
 		89137EC81C0179130060840D /* ios_sql_persistenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89137EC71C0179130060840D /* ios_sql_persistenceUITests.swift */; };
 		89137ED61C0179390060840D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 89137ED51C0179390060840D /* .gitignore */; };
+		89137EEA1C0184C10060840D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89137EE91C0184C10060840D /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		89137EC71C0179130060840D /* ios_sql_persistenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_sql_persistenceUITests.swift; sourceTree = "<group>"; };
 		89137EC91C0179130060840D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89137ED51C0179390060840D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		89137EE91C0184C10060840D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89137EEA1C0184C10060840D /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		89137E9B1C0179130060840D = {
 			isa = PBXGroup;
 			children = (
+				89137EE91C0184C10060840D /* libsqlite3.dylib */,
 				89137ED51C0179390060840D /* .gitignore */,
 				89137EA61C0179130060840D /* ios-sql-persistence */,
 				89137EBB1C0179130060840D /* ios-sql-persistenceTests */,
@@ -488,6 +492,7 @@
 				89137ECE1C0179130060840D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89137ECF1C0179130060840D /* Build configuration list for PBXNativeTarget "ios-sql-persistenceTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				89137ED11C0179130060840D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89137ED21C0179130060840D /* Build configuration list for PBXNativeTarget "ios-sql-persistenceUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				89137ED41C0179130060840D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

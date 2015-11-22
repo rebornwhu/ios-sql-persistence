@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89137EA81C0179130060840D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89137EA71C0179130060840D /* AppDelegate.swift */; };
+		89137EAA1C0179130060840D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89137EA91C0179130060840D /* ViewController.swift */; };
+		89137EAD1C0179130060840D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89137EAB1C0179130060840D /* Main.storyboard */; };
+		89137EAF1C0179130060840D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89137EAE1C0179130060840D /* Assets.xcassets */; };
+		89137EB21C0179130060840D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89137EB01C0179130060840D /* LaunchScreen.storyboard */; };
+		89137EBD1C0179130060840D /* ios_sql_persistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89137EBC1C0179130060840D /* ios_sql_persistenceTests.swift */; };
+		89137EC81C0179130060840D /* ios_sql_persistenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89137EC71C0179130060840D /* ios_sql_persistenceUITests.swift */; };
+		89137ED61C0179390060840D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 89137ED51C0179390060840D /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89137EB91C0179130060840D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89137E9C1C0179130060840D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89137EA31C0179130060840D;
+			remoteInfo = "ios-sql-persistence";
+		};
+		89137EC41C0179130060840D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89137E9C1C0179130060840D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89137EA31C0179130060840D;
+			remoteInfo = "ios-sql-persistence";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89137EA41C0179130060840D /* ios-sql-persistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-sql-persistence.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89137EA71C0179130060840D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89137EA91C0179130060840D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89137EAC1C0179130060840D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89137EAE1C0179130060840D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89137EB11C0179130060840D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89137EB31C0179130060840D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89137EB81C0179130060840D /* ios-sql-persistenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-sql-persistenceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89137EBC1C0179130060840D /* ios_sql_persistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_sql_persistenceTests.swift; sourceTree = "<group>"; };
+		89137EBE1C0179130060840D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89137EC31C0179130060840D /* ios-sql-persistenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-sql-persistenceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89137EC71C0179130060840D /* ios_sql_persistenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_sql_persistenceUITests.swift; sourceTree = "<group>"; };
+		89137EC91C0179130060840D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89137ED51C0179390060840D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89137EA11C0179130060840D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89137EB51C0179130060840D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89137EC01C0179130060840D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89137E9B1C0179130060840D = {
+			isa = PBXGroup;
+			children = (
+				89137ED51C0179390060840D /* .gitignore */,
+				89137EA61C0179130060840D /* ios-sql-persistence */,
+				89137EBB1C0179130060840D /* ios-sql-persistenceTests */,
+				89137EC61C0179130060840D /* ios-sql-persistenceUITests */,
+				89137EA51C0179130060840D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89137EA51C0179130060840D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89137EA41C0179130060840D /* ios-sql-persistence.app */,
+				89137EB81C0179130060840D /* ios-sql-persistenceTests.xctest */,
+				89137EC31C0179130060840D /* ios-sql-persistenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89137EA61C0179130060840D /* ios-sql-persistence */ = {
+			isa = PBXGroup;
+			children = (
+				89137EA71C0179130060840D /* AppDelegate.swift */,
+				89137EA91C0179130060840D /* ViewController.swift */,
+				89137EAB1C0179130060840D /* Main.storyboard */,
+				89137EAE1C0179130060840D /* Assets.xcassets */,
+				89137EB01C0179130060840D /* LaunchScreen.storyboard */,
+				89137EB31C0179130060840D /* Info.plist */,
+			);
+			path = "ios-sql-persistence";
+			sourceTree = "<group>";
+		};
+		89137EBB1C0179130060840D /* ios-sql-persistenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				89137EBC1C0179130060840D /* ios_sql_persistenceTests.swift */,
+				89137EBE1C0179130060840D /* Info.plist */,
+			);
+			path = "ios-sql-persistenceTests";
+			sourceTree = "<group>";
+		};
+		89137EC61C0179130060840D /* ios-sql-persistenceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89137EC71C0179130060840D /* ios_sql_persistenceUITests.swift */,
+				89137EC91C0179130060840D /* Info.plist */,
+			);
+			path = "ios-sql-persistenceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89137EA31C0179130060840D /* ios-sql-persistence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89137ECC1C0179130060840D /* Build configuration list for PBXNativeTarget "ios-sql-persistence" */;
+			buildPhases = (
+				89137EA01C0179130060840D /* Sources */,
+				89137EA11C0179130060840D /* Frameworks */,
+				89137EA21C0179130060840D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-sql-persistence";
+			productName = "ios-sql-persistence";
+			productReference = 89137EA41C0179130060840D /* ios-sql-persistence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89137EB71C0179130060840D /* ios-sql-persistenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89137ECF1C0179130060840D /* Build configuration list for PBXNativeTarget "ios-sql-persistenceTests" */;
+			buildPhases = (
+				89137EB41C0179130060840D /* Sources */,
+				89137EB51C0179130060840D /* Frameworks */,
+				89137EB61C0179130060840D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89137EBA1C0179130060840D /* PBXTargetDependency */,
+			);
+			name = "ios-sql-persistenceTests";
+			productName = "ios-sql-persistenceTests";
+			productReference = 89137EB81C0179130060840D /* ios-sql-persistenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89137EC21C0179130060840D /* ios-sql-persistenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89137ED21C0179130060840D /* Build configuration list for PBXNativeTarget "ios-sql-persistenceUITests" */;
+			buildPhases = (
+				89137EBF1C0179130060840D /* Sources */,
+				89137EC01C0179130060840D /* Frameworks */,
+				89137EC11C0179130060840D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89137EC51C0179130060840D /* PBXTargetDependency */,
+			);
+			name = "ios-sql-persistenceUITests";
+			productName = "ios-sql-persistenceUITests";
+			productReference = 89137EC31C0179130060840D /* ios-sql-persistenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89137E9C1C0179130060840D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Xiao Lu";
+				TargetAttributes = {
+					89137EA31C0179130060840D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					89137EB71C0179130060840D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 89137EA31C0179130060840D;
+					};
+					89137EC21C0179130060840D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 89137EA31C0179130060840D;
+					};
+				};
+			};
+			buildConfigurationList = 89137E9F1C0179130060840D /* Build configuration list for PBXProject "ios-sql-persistence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89137E9B1C0179130060840D;
+			productRefGroup = 89137EA51C0179130060840D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89137EA31C0179130060840D /* ios-sql-persistence */,
+				89137EB71C0179130060840D /* ios-sql-persistenceTests */,
+				89137EC21C0179130060840D /* ios-sql-persistenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89137EA21C0179130060840D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89137ED61C0179390060840D /* .gitignore in Resources */,
+				89137EB21C0179130060840D /* LaunchScreen.storyboard in Resources */,
+				89137EAF1C0179130060840D /* Assets.xcassets in Resources */,
+				89137EAD1C0179130060840D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89137EB61C0179130060840D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89137EC11C0179130060840D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89137EA01C0179130060840D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89137EAA1C0179130060840D /* ViewController.swift in Sources */,
+				89137EA81C0179130060840D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89137EB41C0179130060840D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89137EBD1C0179130060840D /* ios_sql_persistenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89137EBF1C0179130060840D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89137EC81C0179130060840D /* ios_sql_persistenceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89137EBA1C0179130060840D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89137EA31C0179130060840D /* ios-sql-persistence */;
+			targetProxy = 89137EB91C0179130060840D /* PBXContainerItemProxy */;
+		};
+		89137EC51C0179130060840D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89137EA31C0179130060840D /* ios-sql-persistence */;
+			targetProxy = 89137EC41C0179130060840D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89137EAB1C0179130060840D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89137EAC1C0179130060840D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89137EB01C0179130060840D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89137EB11C0179130060840D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89137ECA1C0179130060840D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89137ECB1C0179130060840D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89137ECD1C0179130060840D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-sql-persistence/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaolu.ios-sql-persistence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89137ECE1C0179130060840D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-sql-persistence/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaolu.ios-sql-persistence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		89137ED01C0179130060840D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-sql-persistenceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaolu.ios-sql-persistenceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-sql-persistence.app/ios-sql-persistence";
+			};
+			name = Debug;
+		};
+		89137ED11C0179130060840D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-sql-persistenceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaolu.ios-sql-persistenceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-sql-persistence.app/ios-sql-persistence";
+			};
+			name = Release;
+		};
+		89137ED31C0179130060840D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ios-sql-persistenceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaolu.ios-sql-persistenceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ios-sql-persistence";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		89137ED41C0179130060840D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ios-sql-persistenceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaolu.ios-sql-persistenceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ios-sql-persistence";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89137E9F1C0179130060840D /* Build configuration list for PBXProject "ios-sql-persistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89137ECA1C0179130060840D /* Debug */,
+				89137ECB1C0179130060840D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89137ECC1C0179130060840D /* Build configuration list for PBXNativeTarget "ios-sql-persistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89137ECD1C0179130060840D /* Debug */,
+				89137ECE1C0179130060840D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89137ECF1C0179130060840D /* Build configuration list for PBXNativeTarget "ios-sql-persistenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89137ED01C0179130060840D /* Debug */,
+				89137ED11C0179130060840D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89137ED21C0179130060840D /* Build configuration list for PBXNativeTarget "ios-sql-persistenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89137ED31C0179130060840D /* Debug */,
+				89137ED41C0179130060840D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89137E9C1C0179130060840D /* Project object */;
+}

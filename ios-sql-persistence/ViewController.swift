@@ -61,7 +61,7 @@ class ViewController: UIViewController {
         
         for var i = 0; i < lineFields.count; i++ {
             let field = lineFields[i]
-            let update = "INSERT OR REPLACE INTO FIELDS (ROW, FIELD_DATA) VALUE (?, ?);"
+            let update = "INSERT OR REPLACE INTO FIELDS (ROW, FIELD_DATA) VALUES (?, ?);"
             var statement:COpaquePointer = nil
             if sqlite3_prepare_v2(database, update, -1, &statement, nil) == SQLITE_OK {
                 let text = field.text
